@@ -1,2 +1,1 @@
-export * from "src/errors/base-error";
-export * from "src/assert";
+// export * from "src/" <- path here
