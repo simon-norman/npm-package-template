@@ -9,7 +9,7 @@
 		"prepublish": "tsup",
 		"build": "tsup",
 		"bump-patch": "pnpm version patch",
-		"publish-patch": "pnpm bump-patch && pnpm publish"
+		"publish-patch": "pnpm bump-patch && pnpm publish --access public"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.5.3",
